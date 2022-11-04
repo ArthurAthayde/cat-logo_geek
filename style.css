@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+header {
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    border-bottom: #ebebeb solid 2px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 164px;
+    height: 54px;
+    margin: 10px;
+    overflow-x: auto;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgba(10, 153, 254, 0.1);
+    color: rgb(10, 153, 254);
+    border-radius: 7px;
+    transition: 0.8s;
+}
+
+button:hover {
+    background-color: #0A99FE;
+    color: #e6f5ff;
+    transition: 0.8s;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: auto;
+    background-color: #FFFFFF;
+}
+
+h3 {
+    font-size: 20px;
+    overflow-x: auto;
+    padding: 10px;
+    margin: 25px 10px;
+}
+
+ul {
+    display: flex;
+    overflow: auto;
+    justify-content: left;
+    white-space: nowrap;
+}
+
+
+
+li {
+    width: 207px;
+    height: 275px;
+    text-align: center;
+    background-color: #ebebeb;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.titulos {
+    color: #1B1B1B;
+    font-size: 20px;
+    margin: 15px 10px;
+}
+
+.preco {
+    color: #868383;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.produtoInd {
+    width: 100%;
+    height: 60%;
+    overflow-x: auto;
+}
